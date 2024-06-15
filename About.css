@@ -1,0 +1,119 @@
+.about {
+  position: relative;
+  padding-top: 350px;
+  display: inline-flex;
+  background-image: url("../Component/Images/image6.jpg");
+  background-size: cover;
+  background-position: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.about-section2 {
+  border-radius: 3rem;
+  padding: 47px;
+  margin-bottom: 120px;
+  font-family: RedHatMedium;
+  width: 60%;
+  margin: 120px;
+  background: rgb(248, 246, 246);
+  color: rgb(77, 75, 75);
+  margin-left: 300px;
+  text-align: justify;
+  border-radius: 0.05rem;
+  color: black;
+
+  font-size: x-large;
+}
+
+.about-section4 {
+  display: flex;
+  align-items:justify;
+  justify-content: space-between;
+  color: black;
+
+}
+
+.samplepics {
+  padding-right: 20px;
+  flex: 0 0 45%;
+  order: 2;
+}
+
+.Text-container {
+  flex: 0 0 45%;
+  text-align: left;
+  list-style: auto;
+  padding: 0 20px;
+  font-size: large;
+  column-gap: 20px;
+  text-align: justify;
+  color: black;
+
+}
+
+.Text-container p {
+  break-inside: avoid;
+  margin-bottom: 0;
+  font-size: large;
+  color: black;
+  font-size: large;
+}
+
+.samplepics img {
+  max-width: 95%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+.about-section6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  padding-top: 150px;
+}
+
+.button {
+  text-align: center;
+}
+
+.button button {
+  padding: 10px 20px;
+  background-color: rgba(251, 198, 52, 0.8);
+  color: #716b6b;
+  border: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: large;
+  text-decoration: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .about-section2 {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  .samplepics,
+  .Text-container {
+    flex: 0 0 100%;
+    order: 1;
+    margin-bottom: 20px;
+  }
+  
+  .button button {
+    font-size: medium;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about-section2 {
+    width: 90%;
+    margin: 10px auto;
+  }  
+  .button button {
+    font-size: small;
+  }
+}

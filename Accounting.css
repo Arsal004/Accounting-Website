@@ -1,0 +1,87 @@
+.Accounting {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.Accounting .Text-container {
+  padding-bottom: 60px;
+  width: 40%;
+  margin-left: 100 px;
+  text-align: left;
+  font-size:45px;
+  font-family:border-collapse;
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: rgb(242, 218, 84);
+}
+
+.Image-container {
+  width: 50%;
+  text-align: center; /* Center the image within the container */
+}
+
+#Image8 {
+  width: 100%;
+  height: auto;
+  border-radius: 5px; /* Add border-radius for a slight curve */
+}
+
+.Text {
+  border-radius: 2rem;
+  margin-left: 100px;
+  padding: 4cap;
+  margin: 20px;
+  font-family: RedHatMedium;
+  width: 60%; /* Adjusted width for better responsiveness */
+  background: rgb(247, 243, 243);
+  color: rgb(77, 75, 75);
+  text-align: justify;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  margin-left: 270px;
+  font-size: x-large;
+
+}
+
+.Services {
+  text-align: justify;
+  font-size: larger;
+  padding: 40px;
+  margin-bottom: 100px;
+  font-family: RedHatMedium;
+  margin-left:100px;
+  margin-right: 150px;
+
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1800px) {
+  .Text-container {
+    padding-left: 150px; /* Adjusted padding for laptop screens */
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 3000px) {
+  .Text-container {
+    padding-left: 250px; /* Adjusted padding for larger screens */
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 800px) {
+  .Text-container {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .Text {
+    margin: 20px; /* Adjusted margin for smaller screens */
+  }
+
+  .Image-container {
+    width: 100%;
+  }
+}

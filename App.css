@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 10;
+  box-sizing: border-box;
+
+}
+
+.App {
+  text-align: center;
+  font-family: sans-serif;
+
+}
+
+@font-face {
+  font-family: RedHatLight;
+  src: url("../public/RedHatDisplay-Light.ttf");
+}
+
+@font-face {
+  font-family: RedHatRegular;
+  src: url("../public/RedHatDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: RedHatMedium;
+  src: url("../public/RedHatDisplay-Medium.ttf");
+}

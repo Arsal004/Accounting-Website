@@ -1,0 +1,106 @@
+#person {
+    transform: scale(1.7);
+    padding-top: 49px;
+    position: absolute;
+    margin-left: 120px;
+}
+
+#container {
+    padding-top: 30px;
+    display: flex;
+}
+
+#bgcolor {
+    display: inline-block;
+    font-size: 1.5em;
+    border-radius: 20px;
+    padding: 0.5em 0.2em 0.5em 0.2em;
+    margin: 1em;
+    background: rgba(197, 197, 197, 0.5);
+}
+
+
+#divtext {
+    text-align: center;
+    font-family: RedHatMedium;
+    position: sticky;
+}
+
+
+#h1 {
+    color: rgb(56, 52, 0);
+    -webkit-text-stroke: 0.5px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#p {
+    color: rgb(38, 38, 38);
+    -webkit-text-stroke: 0.2px;
+}
+
+#contactnow {
+    border-radius: 5px;
+    padding: 0.6em 2em 0.6em 2em;
+    margin-bottom: 10px;
+    background:rgba(248, 187, 18, 0.5) ;
+    font-size: 1em;
+    font-family: RedHatMedium;
+    border: 2px solid black;
+    
+}
+
+@media screen and
+/*laptop*/
+(1000px <=width <=1800px) {
+    #divtext {
+        padding-left: 780px;
+    }
+}
+
+
+@media screen and
+/*Monitor*/
+(1800px <=width <=3000px) {
+    #divtext {
+        padding-left: 1080px;
+    }
+
+
+}
+
+@media screen and (501px <=width <=800px){
+    #divtext{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (250px <=width <=500px)
+/*Mobile*/
+    {
+    #bgcolor {
+        display: inline-block;
+        font-size: 1rem;
+        border-radius: 20px;
+        padding: 0.5em 0.2em 0.8em 0.5em;
+        background: rgba(197, 197, 197, 0.5);
+    }
+
+}
+
+
+#image1 {}
+
+
+
+#test2 {
+    padding-top: 1300px;
+}
+
+#here {
+    height: 150px;
+}
+
+/*html,body{
+    overflow-x: clip;
+}*/

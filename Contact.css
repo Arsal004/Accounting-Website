@@ -1,0 +1,221 @@
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+#divC{
+    display: flex;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+    margin-bottom: 150px;
+}
+
+#divC2{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#contactinfo{
+    text-align: left;
+    font-family: RedHatLight;
+}
+
+#CIheader{
+    margin: 10px 0 20px 0;
+    font-size: 45px;
+    border-bottom: 5px solid rgba(255, 207, 75, .8);
+    text-align: center;
+}
+
+#divC2 h2{
+    padding: 15px;
+    font-size: 28px;
+    
+}
+
+#divC2 p {
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: RedHatRegular;
+}
+
+#contactpictures{
+    display: flex;
+    align-items: center;
+}
+
+#sample1{
+    width: 100%;
+    border-bottom: 5px solid rgba(222, 180, 65, 0.7);
+    border-right: 5px solid rgba(255, 207, 75, .4);
+    box-shadow: -1px -1px 3px rgb(176, 176, 176);
+}
+
+#containerContact {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 50%;  
+    justify-content: center;
+}
+
+#containerPicture{
+    margin-left: auto;
+    margin-right: 7%;
+    margin-top: 3%;
+    box-shadow: 0px 9px 10px rgb(176, 176, 176);
+    border-top: 5px solid rgba(255, 207, 75, .8);
+}
+
+@media screen and
+/*Monitor*/
+(1800px <=width <=3000px){
+    #containerPicture{
+        height: 60vh !important;
+    }
+    #divC2{
+        width: 80% !important;
+    }
+}
+
+#inConPic{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#ConPich3{
+    padding-top: 30px;
+    font-size: 25px;
+    font-family: RedHatRegular;
+    text-align: left;
+    color: rgb(76, 76, 255);
+    
+}
+
+#ConPicp{
+    padding-top: 20px;
+    font-size: 22px;
+    font-family: RedHatRegular;
+    text-align: left;
+    color: rgb(35, 35, 35);
+}
+
+#contactimg1{
+    box-shadow: 0px 0px 5px 2px rgb(176, 176, 176);
+    width: 100%;
+    margin: 30px 0 0 0;
+}
+    
+
+
+#contacth1 {
+    color: rgb(56, 52, 0);
+    margin: 10px 0 20px 23%;
+    font-size: 60px;
+    font-family: RedHatLight;
+    -webkit-text-stroke: 0.5px;
+    border-bottom: 5px solid rgba(255, 207, 75, .8);
+    width: fit-content;
+    display: flex;
+}
+
+
+#input {
+    background-color: rgba(165, 165, 165, .3);
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 2px;
+    border: 0px solid;
+    margin-bottom: 20px;
+    font-family: RedHatMedium;
+}
+
+#box {
+    background-color: rgba(165, 165, 165, .3);
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    padding: 16px 16px;
+    border-radius: 2px;
+    font-family: RedHatMedium;
+    border: 0px solid;
+}
+
+
+#submit {
+    background-color: rgba(255, 207, 75, .8);
+    border-radius: 2px;
+    border: 2px solid;
+    font-size: 22px;
+    padding: 10px 18px;
+    text-align: center;
+    font-family: RedHatLight;
+    font-weight: bold;
+    align-self: flex-end;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+@media screen and (250px <=width <=600px)
+/*Mobile*/
+    {
+
+    #containerContact{
+        width: 100%;
+    }
+    #divC{
+        display: flex;
+        flex-direction: column;
+    }
+    #containerPicture{
+        width: 85% !important;
+        height: 45vh !important;
+        margin-top: 10%;
+
+    }
+    #contacth1{
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+    #ConPich3{
+        padding-top: 30px;
+        font-size: 25px;
+        font-family: RedHatRegular;
+        text-align: left;
+        color: rgb(76, 76, 255);
+        
+    }
+    #ConPich3{
+        font-size: 20px;
+    }
+    #ConPicp{
+        font-size: 16px;
+    }
+    #divC2{
+        flex-direction: column;
+    }
+    #contactpictures{
+        width: 100% !important;
+        align-items: flex-start;
+        margin-top: 50px;
+    }
+}
+
+
+input:focus-within {
+    outline-color: rgba(255, 207, 75, .8);
+}
+
+textarea:focus-within {
+    outline-color: rgba(255, 207, 75, 1);
+}
+
+button:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
